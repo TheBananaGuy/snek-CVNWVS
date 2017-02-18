@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+
+body {
+	background-color: #222222;
+	color: #bbb;
+}
+		
+.center {
+	position: relative;
+	display: block;
+	margin: auto;
+	text-align: center;
+	z-index: 1;
+}
+
+.screen {
+	position: absolute;
+	width: 99vw;
+	z-index: 2;
+}
+
+.tv {
+	margin-top: -100px;
+	opacity: 0.5;
+}
+
+.blue {
+	background-color: #000099;
+}
+
+#canvas,
+.screen {
+	top: 100px;
+}
+
+.text {
+	position: absolute;
+	display: block;
+	margin: 50px;
+	margin-top: 100px;
+	text-align: center;
+	max-width: 300px;
+	z-index: 666;
+}
+
+.left {
+	left: 0;
+}
+
+.right {
+	right: 0;
+}
+
+	</style>
+</head>
+<body>
+
+
+<div class="text left">
+	<h1>ALIEN AI SAVES THE PLANET FROM ZOMBIE CYBORGS</h1>
+	<p>Take control of the alien using the arrow keys</p>
+	<br>
+	<p>Eat all the zombies!</p>
+	<br>
+	<p>NB! the more you eat - the faster you get</p>
+
+</div>
+
+<div class="text right">
+	<h2>Here is your score:</h2>
+	<p id="score">0</p>
+	<br>
+	<h3>Start the game</h3>
+	<input id="button" type="button" name="button" value="START!">
+</div>
+
+<div class="center screen">
+	<!-- <img class="center tv" src="screen1000.png"> -->
+</div>
+<!-- Lets make a simple snake game -->
+
+</body>
+</html>
